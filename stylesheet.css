@@ -1,0 +1,276 @@
+
+html {
+  min-height: 100%;
+  position: relative;
+} 
+a {
+  /* リンク下線削除 */
+  text-decoration: none;
+}
+/*============
+header
+=============*/
+header {
+  /* border-style: dotted; */
+}
+/*============
+container
+=============*/
+.container {
+  font-size: 36px;
+  text-align: center;
+  
+}
+/*============
+body
+=============*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  /* background-image: url("../images/519lPpUIhPL._AC_SL1024_.jpg"); */
+  background-size: cover; 
+}
+
+.img-size img{
+  width: 640px;
+  height: 540px;
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  display: inline-block;
+}
+.img-position {
+  text-align: center;
+}
+ nav.menu1{
+  /* border-bottom: 1px solid black; */
+  }
+  nav.menu1 ul{
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  }
+  nav.menu1 ul li{
+  display: table-cell;
+  min-width: 50px;
+  border-right: 1px solid black;
+  }
+  nav.menu1 ul li:first-child{
+  border-left: 1px solid black;
+  }
+  nav.menu1 ul li a{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color:black;
+  }
+  nav.menu1 ul li a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  }
+  nav.menu1 ul li.current{
+  font-weight: bold;
+  }
+  nav.menu1 ul li.current a{
+  border-bottom: 5px solid #ffffff;
+  color: #f7f8f8;
+  }
+
+/*============
+ハンバーガーメニュー
+=============*/
+.menu2 {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -70%;
+  bottom: 0;
+  width: 70%;
+  background-image: url("../images/609539a81bddc4f8d02a019044d4b128.jpg");
+  background-size: cover; 
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  transition: all .5s;
+  z-index: 3;
+  
+}
+
+.open nav {
+  left: 0;
+  opacity: 1;
+}
+nav .inner {
+  padding: 25px;
+  text-align: center;
+}
+
+nav .inner img {
+  width: 320px;
+  height: 320px;
+  border-radius: 320px 320px 320px 320px;
+}
+
+nav .inner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav .inner ul li {
+  position: relative;
+  margin: 0;
+  border-bottom: 1px solid #333;
+}
+nav .inner ul li a {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  padding: 1em;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+nav .inner ul li a:hover {
+  background: #e4e4e4;
+}
+
+/*============
+.toggle_btn
+=============*/
+.toggle_btn {
+  display: block;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  transition: all .5s;
+  cursor: pointer;
+  z-index: 3;
+}
+.toggle_btn span {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  border-radius: 4px;
+  transition: all .5s;
+}
+.toggle_btn span:nth-child(1) {
+  top: 4px;
+}
+.toggle_btn span:nth-child(2) {
+  top: 14px;
+}
+.toggle_btn span:nth-child(3) {
+  bottom: 4px;
+}
+.open .toggle_btn span {
+  background-color: #fff;
+}
+.open .toggle_btn span:nth-child(1) {
+  -webkit-transform: translateY(10px) rotate(-315deg);
+  transform: translateY(10px) rotate(-315deg);
+}
+.open .toggle_btn span:nth-child(2) {
+  opacity: 0;
+}
+.open .toggle_btn span:nth-child(3) {
+  -webkit-transform: translateY(-10px) rotate(315deg);
+  transform: translateY(-10px) rotate(315deg);
+}
+/*============
+#mask
+=============*/
+#mask {
+  display: none;
+  transition: all .5s;
+}
+.open #mask {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .8;
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+
+.wrapper{
+  height: 100%;
+  min-height: 100vh;
+  position: relative;/*←相対位置*/
+  padding-bottom: 120px;/*←footerの高さ*/
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  
+}
+
+footer{
+  width: 100%;
+  /* background-color: #89c7de; */
+  color: black;
+  text-align: center;
+  /* padding: 30px 0; */
+  height: 5em;
+
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+.footer a {
+  color: black;
+}
+ul.footer-menu li {
+
+display: inline;
+}
+.footer-position {
+  text-align: center;
+
+}
+nav.menu3{
+  /* border-bottom: 1px solid black; */
+  }
+  nav.menu3 ul{
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  }
+  nav.menu3 ul li{
+  display: table-cell;
+  min-width: 50px;
+  border-right: 1px solid black;
+  }
+  nav.menu3 ul li:first-child{
+  border-left: 1px solid black;
+  }
+  nav.menu3 ul li a{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color:black;
+  }
+  nav.menu3 ul li a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  }
+  nav.menu3 ul li.current{
+  font-weight: bold;
+  }
+  nav.menu3 ul li.current a{
+  border-bottom: 5px solid #ffffff;
+  color: #f7f8f8;
+  }
+
+  
+  
+
