@@ -1,0 +1,72 @@
+/*============
+パソコン画面サイズ等
+=============*/
+/* @media screen and (max-width: 4000px) {
+  .toggle_btn {
+    display: none;
+  } */
+/*============
+ipad画面サイズ
+=============*/
+@media screen and (max-width: 1225px) {
+
+.lesson {            
+  width: 50%;            
+  margin-bottom: 50px;
+ }
+}
+@media screen and (max-width: 480px) {
+
+nav.menu1{
+  display: none;
+  }
+  nav.menu1 ul{
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  }
+  nav.menu1 ul li{
+  display: table-cell;
+  min-width: 50px;
+  border-right: 1px solid black;
+  }
+  nav.menu1 ul li:first-child{
+  border-left: 1px solid black;
+  }
+  nav.menu1 ul li a{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color:black;
+  }
+  nav.menu1 ul li a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  }
+  nav.menu1 ul li.current{
+  font-weight: bold;
+  }
+  nav.menu1 ul li.current a{
+  border-bottom: 5px solid #ffffff;
+  color: #f7f8f8;
+  }    
+/*============
+container
+=============*/
+.container {
+  font-size: 12px;
+
+}
+
+    .img-size img{
+      width: 60%;
+      height: 60%;
+      text-align: center;
+    }
+    .lesson {            
+      width: 100%;            
+    }
+  }
