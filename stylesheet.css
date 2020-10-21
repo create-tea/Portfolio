@@ -29,7 +29,14 @@ body {
   font-weight: 400;
   background-size: cover; 
 }
-
+/* 枠線 */
+.profilebox {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #95ccff;
+  border-radius: 8px;
+}
 .img-size img{
   width: 640px;
   height: 540px;
