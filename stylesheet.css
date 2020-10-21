@@ -26,13 +26,14 @@ body
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background: linear-gradient(-135deg, #E4A972, #9941D8);
+  background: linear-gradient(-135deg, #f0edeb, #d2a9f0);
   background-size: cover; 
 }
 .contents-box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 /* 枠線 */
 .profilebox {
@@ -51,7 +52,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background: #FFF;
+  background: linear-gradient(-135deg, #f0edeb, #d2a9f0);
   color: blue;
   font-weight: bold;
 }
@@ -71,7 +72,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background: #FFF;
+  background: linear-gradient(-135deg, #f0edeb, #d2a9f0);
   color: red;
   font-weight: bold;
 }
@@ -91,7 +92,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background: #FFF;
+  background: linear-gradient(-135deg, #f0edeb, #d2a9f0);
   color: green;
   font-weight: bold;
 }
@@ -111,7 +112,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background: #FFF;
+  background: linear-gradient(-135deg, #f0edeb, #d2a9f0);
   color: orange;
   font-weight: bold;
 }
@@ -171,7 +172,7 @@ body {
   left: -70%;
   bottom: 0;
   width: 70%;
-  background-image: url("../images/609539a81bddc4f8d02a019044d4b128.jpg");
+  background: linear-gradient(-135deg, #f0edeb, #d2a9f0);
   background-size: cover; 
   overflow-x: hidden;
   overflow-y: auto;
