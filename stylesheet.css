@@ -31,8 +31,7 @@ body {
 }
 .contents-box {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 /* 枠線 */
@@ -52,7 +51,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background:#f0edeb;
+  background: #fff;
   color: blue;
   font-weight: bold;
 }
@@ -72,7 +71,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background:#f0edeb;
+  background:#fff;
   color: red;
   font-weight: bold;
 }
@@ -92,7 +91,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background:#f0edeb;
+  background:#fff;
   color: green;
   font-weight: bold;
 }
@@ -112,7 +111,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background:  #f0edeb;
+  background:  #fff;
   color: orange;
   font-weight: bold;
 }
