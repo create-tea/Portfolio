@@ -87,6 +87,25 @@ body {
   color: #95ccff;
   font-weight: bold;
 }
+.frameworkbox {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #95ccff;
+  border-radius: 8px;
+}
+.frameworkbox .framework-title {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 19px;
+  background: #FFF;
+  color: #95ccff;
+  font-weight: bold;
+}
 .img-size img{
   width: 640px;
   height: 540px;
