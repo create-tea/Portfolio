@@ -56,6 +56,7 @@ body {
   padding: 0.5em 1em;
   border: solid 3px black;
   border-radius: 8px;
+  width:500px;
 }
 .claguagebox .clanguage-title {
   position: absolute;
@@ -75,6 +76,7 @@ body {
   padding: 0.5em 1em;
   border: solid 3px black;
   border-radius: 8px;
+  width:300px;
 }
 .officesoftbox .officesoft-title {
   position: absolute;
@@ -94,6 +96,7 @@ body {
   padding: 0.5em 1em;
   border: solid 3px black;
   border-radius: 8px;
+  width:300px;
 }
 .frameworkbox .framework-title {
   position: absolute;
