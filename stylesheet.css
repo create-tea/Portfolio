@@ -19,7 +19,6 @@ container
 .container {
   /* font-size: 36px;
   text-align: center; */
-  
 }
 /*============
 body
@@ -27,7 +26,13 @@ body
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  background: linear-gradient(-135deg, #E4A972, #9941D8);
   background-size: cover; 
+}
+.contents-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 /* 枠線 */
 .profilebox {
