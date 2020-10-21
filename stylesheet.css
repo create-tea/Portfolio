@@ -4,10 +4,14 @@ html {
   position: relative;
 } 
 h1 {
-  color: #FF7C00;
-  background: -webkit-linear-gradient(top, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+  color: #00b7ff;
+  background: -webkit-linear-gradient(top, #baeef5 0%, #a2e2ee 50%, #5f98f3 51%, #FF7F04 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.about-text {
+  font-size: 18px;
   text-align: center;
 }
 a {
@@ -178,7 +182,7 @@ body {
   left: -70%;
   bottom: 0;
   width: 70%;
-  background: linear-gradient(-135deg, #f0edeb, #d2a9f0);
+  background: linear-gradient(-135deg, #f0edeb, #a9d6f0);
   background-size: cover; 
   overflow-x: hidden;
   overflow-y: auto;
