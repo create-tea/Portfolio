@@ -46,8 +46,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background: #FFF;
-  color: black;
+  color: blue;
   font-weight: bold;
 }
 .claguagebox {
@@ -66,8 +65,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background: #FFF;
-  color: black;
+  color: red;
   font-weight: bold;
 }
 .officesoftbox {
@@ -86,8 +84,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background: #FFF;
-  color: black;
+  color: green;
   font-weight: bold;
 }
 .frameworkbox {
@@ -106,8 +103,7 @@ body {
   padding: 0 9px;
   line-height: 1;
   font-size: 19px;
-  background: #FFF;
-  color: black;
+  color: orange;
   font-weight: bold;
 }
 .img-size img{
