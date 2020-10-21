@@ -34,8 +34,9 @@ body {
   position: relative;
   margin: 2em 0;
   padding: 0.5em 1em;
-  border: solid 3px #95ccff;
+  border: solid 3px black;
   border-radius: 8px;
+  width:300px;
 }
 .profilebox .profile-title {
   position: absolute;
@@ -46,14 +47,14 @@ body {
   line-height: 1;
   font-size: 19px;
   background: #FFF;
-  color: #95ccff;
+  color: black;
   font-weight: bold;
 }
 .claguagebox {
   position: relative;
   margin: 2em 0;
   padding: 0.5em 1em;
-  border: solid 3px #95ccff;
+  border: solid 3px black;
   border-radius: 8px;
 }
 .claguagebox .clanguage-title {
@@ -65,14 +66,14 @@ body {
   line-height: 1;
   font-size: 19px;
   background: #FFF;
-  color: #95ccff;
+  color: black;
   font-weight: bold;
 }
 .officesoftbox {
   position: relative;
   margin: 2em 0;
   padding: 0.5em 1em;
-  border: solid 3px #95ccff;
+  border: solid 3px black;
   border-radius: 8px;
 }
 .officesoftbox .officesoft-title {
@@ -84,14 +85,14 @@ body {
   line-height: 1;
   font-size: 19px;
   background: #FFF;
-  color: #95ccff;
+  color: black;
   font-weight: bold;
 }
 .frameworkbox {
   position: relative;
   margin: 2em 0;
   padding: 0.5em 1em;
-  border: solid 3px #95ccff;
+  border: solid 3px black;
   border-radius: 8px;
 }
 .frameworkbox .framework-title {
@@ -103,7 +104,7 @@ body {
   line-height: 1;
   font-size: 19px;
   background: #FFF;
-  color: #95ccff;
+  color: black;
   font-weight: bold;
 }
 .img-size img{
