@@ -3,6 +3,13 @@ html {
   min-height: 100%;
   position: relative;
 } 
+h1 {
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
 a {
   /* リンク下線削除 */
   text-decoration: none;
