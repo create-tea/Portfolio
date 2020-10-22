@@ -21,7 +21,7 @@ html {
   margin: 0 -.05em;
   transform-origin: 50% 50% -25px;
   transform-style: preserve-3d;
-  animation: loading 1.6s infinite;
+  animation: loading 3.0s infinite;
 }
 .portfolio-logo span:nth-child(2) {
   animation-delay: 2.0s;
