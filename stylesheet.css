@@ -10,9 +10,6 @@ html {
 .portfolio-logo {
   font-size: 24px;
   color: #00b7ff;
-  background: -webkit-linear-gradient(top, #64dff0 0%, #a2e2ee 50%, #73d4e6 51%, #94d3d0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-align: center;
   perspective: 1000px;
 }
