@@ -5,7 +5,7 @@ html {
 } 
 h1 {
   color: #00b7ff;
-  background: -webkit-linear-gradient(top, #baeef5 0%, #a2e2ee 50%, #73d4e6 51%, #94d3d0 100%);
+  background: -webkit-linear-gradient(top, #64dff0 0%, #a2e2ee 50%, #73d4e6 51%, #94d3d0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 1px 1px 0 #FFF, 2px 2px 5px #99ccff, 4px 4px 10px #b2d8ff, 6px 6px 15px #dbedff, 8px 8px 20px #eaf4ff;
