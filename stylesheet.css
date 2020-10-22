@@ -47,7 +47,7 @@ html {
 .portfolio-logo span:nth-child(9) {
   animation-delay: .8s;
 }
-@keyframes portfolio-logo {
+@keyframes loading {
   0% {
     transform: rotateX(-360deg);
   }
