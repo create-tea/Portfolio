@@ -3,16 +3,16 @@ html {
   min-height: 100%;
   position: relative;
 } 
-h1 {
+
+
+
+/* テキストアニメーション */
+.type-textbound {
+  font-size: 18px;
   color: #00b7ff;
   background: -webkit-linear-gradient(top, #64dff0 0%, #a2e2ee 50%, #73d4e6 51%, #94d3d0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
-}
-/* テキストアニメーション */
-.type-textbound {
-  font-size: 60px;
   text-align: center;
 }
 .textbound1 {-webkit-animation: bound .4s ease-in-out;}
