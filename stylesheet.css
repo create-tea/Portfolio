@@ -42,10 +42,10 @@ html {
   animation-delay: 9.5s;
 }
 .portfolio-logo span:nth-child(8) {
-  animation-delay: 3.2s;
+  animation-delay: 11.0s;
 }
 .portfolio-logo span:nth-child(9) {
-  animation-delay: 3.4s;
+  animation-delay: 12.5s;
 }
 @keyframes loading {
   0% {
