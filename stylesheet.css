@@ -165,7 +165,7 @@ body {
   }
   nav.menu1 ul li a:hover{
   background-color: rgba(164, 243, 248, 0.993);
-  
+  opacity: 0.5;
   }
   nav.menu1 ul li.current{
   font-weight: bold;
@@ -192,7 +192,7 @@ body {
   -webkit-overflow-scrolling: touch;
   transition: all .5s;
   z-index: 3;
-  
+  opacity: 0.5;
 }
 
 .open nav {
@@ -230,6 +230,7 @@ nav .inner ul li a {
 }
 nav .inner ul li a:hover {
   background: #a2d8da;
+  opacity: 0.5;
 }
 
 /*============
@@ -359,7 +360,7 @@ nav.menu3{
   }
   nav.menu3 ul li a:hover{
     background-color: rgba(164, 243, 248, 0.993);
-  
+    opacity: 0.5;
   }
   nav.menu3 ul li.current{
   font-weight: bold;
