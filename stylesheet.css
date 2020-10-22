@@ -21,11 +21,11 @@ h1 {
 .textbound8 {-webkit-animation: bound 1.1s ease-in-out;}
 .textbound9 {-webkit-animation: bound 1.2s ease-in-out;}
 @-webkit-keyframes bound {
-  0% {transform: infinite(0) translate(0,-500px);}
-  50% {transform: infiniteX(2) translate(0,200px);}
-  70% {transform: infiniteY(.5) translate(0,-100px);}
-  90% {transform: infiniteX(1.5) translate(0,50px);}
-  100% {transform: infinite(1) translate(0,0);}
+  0% {transform: scale(0) translate(0,-500px);}
+  50% {transform: scaleX(2) translate(0,200px);}
+  70% {transform: scaleY(.5) translate(0,-100px);}
+  90% {transform: scaleX(1.5) translate(0,50px);}
+  100% {transform: scale(1) translate(0,0);}
 }
 .about-text {
   font-size: 18px;
