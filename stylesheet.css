@@ -9,10 +9,7 @@ html {
 /* テキストアニメーション */
 .portfolio-logo {
   font-size: 24px;
-  color: #00b7ff;/*非対応のブラウザでの文字色を設定 */
-  background: -webkit-linear-gradient(0deg, #97e8f7, #5ab3ee);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
+  color: #00b7ff;
   text-align: center;
   perspective: 1000px;
 }
