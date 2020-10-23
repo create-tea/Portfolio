@@ -56,16 +56,16 @@ html {
   }
 }
 
-.hane{
-  position:absolute;
+.hana{
+	position:absolute;
 	height:0;
 	width:0;
-	border: 10px solid #6bb2db;
+	border: 10px solid pink;
 	border-radius: 15px;
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 0;
 }
-.hane::after{
+.hana::after{
 	content:"";
 	display:block;
 	position:absolute;
@@ -73,7 +73,7 @@ html {
 	left:-7px;
 	height:0;
 	width:0;
-	border: 10px solid  #6bb2db;
+	border: 10px solid pink;
 	border-radius: 15px;
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 0;
@@ -81,6 +81,7 @@ html {
 	-ms-transform: rotate(15deg);
 	transform: rotate(15deg);
 }
+
 .about-text {
   font-size: 18px;
   text-align: center;
