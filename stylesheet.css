@@ -8,7 +8,7 @@ html {
 
 /* テキストアニメーション */
 .portfolio-logo {
-  font-size:5em;
+  font-size: 24px;
 	text-align:center;
   color: #6bb2db;
   perspective: 1000px;
