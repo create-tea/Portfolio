@@ -30,25 +30,25 @@ html {
   animation-delay: 3.0s;
 }
 .portfolio-logo span:nth-child(3) {
-  animation-delay: 7.0s;
+  animation-delay: 7.5s;
 }
 .portfolio-logo span:nth-child(4) {
   animation-delay: 11.0s;
 }
 .portfolio-logo span:nth-child(5) {
-  animation-delay: 13.0s;
+  animation-delay: 13.5s;
 }
 .portfolio-logo span:nth-child(6) {
   animation-delay: 16.0s;
 }
 .portfolio-logo span:nth-child(7) {
-  animation-delay: 19.0s;
+  animation-delay: 19.5s;
 }
 .portfolio-logo span:nth-child(8) {
   animation-delay: 22.0s;
 }
 .portfolio-logo span:nth-child(9) {
-  animation-delay: 25.0s;
+  animation-delay: 25.5s;
 }
 @keyframes loading {
   0% {
