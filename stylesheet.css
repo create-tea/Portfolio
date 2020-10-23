@@ -13,10 +13,10 @@ html {
     color: #6bb2db;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-20%, -50%) 
+    transform: translate(-50%, -50%) 
   }
 
 .portfolio-logo span {
