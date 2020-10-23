@@ -8,7 +8,7 @@ html {
 
 /* テキストアニメーション */
 .portfolio-logo {
-    font-size: 24px;
+    font-size: 2em;
 	  text-align:center;
     color: #6bb2db;
     margin: 0;
@@ -16,7 +16,7 @@ html {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-20%, -50%) 
   }
 
 .portfolio-logo span {
