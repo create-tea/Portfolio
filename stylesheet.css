@@ -12,6 +12,8 @@ html {
   color: #00b7ff;
   text-align: center;
   perspective: 1000px;
+  top: 50%; /*親要素を起点に上から50%*/
+  left: 50%;  /*親要素を起点に左から50%*/
 }
 .portfolio-logo span {
   display: inline-block;
