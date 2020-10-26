@@ -141,7 +141,7 @@ body {
 .contents-box {
   display: flex;
   flex-wrap: wrap;            /* 折り返し指定 */
-  align-content:stretch;      /* 折り返し時の配置指定 */
+  align-content:space-around;      /* 折り返し時の配置指定 */
 }
 /* 枠線 */
 .profilebox {
