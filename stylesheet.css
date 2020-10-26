@@ -3,7 +3,31 @@ html {
   min-height: 100%;
   position: relative;
 } 
-
+.hana{
+	position:absolute;
+	height:0;
+	width:0;
+	border: 10px solid pink;
+	border-radius: 15px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.hana::after{
+	content:"";
+	display:block;
+	position:absolute;
+	top:-7px;
+	left:-7px;
+	height:0;
+	width:0;
+	border: 10px solid pink;
+	border-radius: 15px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+	-webkit-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
 /* テキストアニメーション */
 .portfolio-logo {
     font-size: 2em;
