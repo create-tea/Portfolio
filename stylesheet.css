@@ -124,7 +124,7 @@ body {
 .contents-box {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: center;
 }
 /* 枠線 */
 .profilebox {
