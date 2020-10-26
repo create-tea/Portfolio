@@ -20,16 +20,16 @@
 
 	'.t1{border-color:rgb(135, 206, 235);}'+
 	'.t2{border-color:rgb(77, 186, 230);}'+
-	'.t3{border-color:rgb(193, 243, 247, 0.993);}'+
+	'.t3{border-color:rgb(135, 206, 235);}'+
 	'.t4{border-color:rgb(77, 186, 230);}'+
 	'.t5{border-color:rgb(135, 206, 235);}'+
-	'.t6{border-color:rgb(193, 243, 247, 0.993);'+
+	'.t6{border-color:rgb(77, 186, 230);}'+
 	'.t1::after{border-color:rgb(135, 206, 235);}'+
 	'.t2::after{border-color:rgb(77, 186, 230);}'+
-	'.t3::after{border-color:rgb(193, 243, 247, 0.993);}'+
+	'.t3::after{border-color:rgb(135, 206, 235);}'+
 	'.t4::after{border-color:rgb(77, 186, 230);}'+
 	'.t5::after{border-color:rgb(135, 206, 235);}'+
-	'.t6::after{border-color:rgb(193, 243, 247, 0.993);;}'+
+	'.t6::after{border-color:rgb(77, 186, 230);}'+
 
 	'.y1{-webkit-animation:v1 10s infinite;animation:v1 10s infinite;}'+
 	'.y2{-webkit-animation:v2 10s infinite;animation:v2 10s infinite;}'+
