@@ -5,13 +5,13 @@
 	'html,body{overflow-x:hidden;}'+
 	'.hana{'+
 	'position:absolute;height:0;width:0;'+
-	'border: 10px solid pink;'+
+	'border: 10px solid rgb(135, 206, 235);;'+
 	'border-radius: 15px;'+
 	'border-top-right-radius: 0;'+
 	'border-bottom-left-radius: 0;}'+
 	'.hana::after{'+
 	'content:"";display:block;position:absolute;top:-7px;left:-7px;height:0;width:0;'+
-	'border: 10px solid pink;'+
+	'border: 10px solid rgb(135, 206, 235);;'+
 	'border-radius: 15px;'+
 	'border-top-right-radius: 0;'+
 	'border-bottom-left-radius: 0;'+
