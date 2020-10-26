@@ -93,7 +93,6 @@ html {
 }
 .font-color1 {
   color:  rgb(253, 236, 0);
-  background-color: snow;
 }
 a {
   /* リンク下線削除 */
@@ -132,6 +131,7 @@ body {
   margin: 2em 0;
   padding: 0.5em 1em;
   border: solid 3px black;
+  background: #e4fcff;/*背景色*/
   border-radius: 8px;
   width:300px;
 }
@@ -152,6 +152,7 @@ body {
   margin: 2em 0;
   padding: 0.5em 1em;
   border: solid 3px black;
+  background: #e4fcff;/*背景色*/
   border-radius: 8px;
   width: 300px;
 }
@@ -172,6 +173,7 @@ body {
   margin: 2em 0;
   padding: 0.5em 1em;
   border: solid 3px black;
+  background: #e4fcff;/*背景色*/
   border-radius: 8px;
   width:300px;
 }
@@ -192,6 +194,7 @@ body {
   margin: 2em 0;
   padding: 0.5em 1em;
   border: solid 3px black;
+  background: #e4fcff;/*背景色*/
   border-radius: 8px;
   width:300px;
 }
