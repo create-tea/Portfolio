@@ -93,6 +93,7 @@ html {
 }
 .font-color1 {
   color:  rgb(253, 236, 0);
+  background-color: snow;
 }
 a {
   /* リンク下線削除 */
