@@ -91,6 +91,22 @@ html {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+.works-logo {
+  color: #ACB6E5;
+  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.works-text {
+  font-size: 18px;
+  text-align:center;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
 .font-color1 {
   color:  rgb(253, 236, 0);
 }
