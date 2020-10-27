@@ -3,7 +3,7 @@ html {
   min-height: 100%;
   position: relative;
 } 
-.hana{
+/* .hana{
 	position:absolute;
 	height:0;
 	width:0;
@@ -27,7 +27,7 @@ html {
 	-webkit-transform: rotate(15deg);
 	-ms-transform: rotate(15deg);
 	transform: rotate(15deg);
-}
+} */
 /* テキストアニメーション */
 .portfolio-logo {
     font-size: 2em;
