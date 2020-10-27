@@ -10,13 +10,14 @@ ipad画面サイズ
 =============*/
 @media screen and (max-width: 1225px) {
 
-.lesson {            
-  width: 50%;            
-  margin-bottom: 50px;
- }
+  .wrapper{
+    overflow: hidden;
+  }
 }
 @media screen and (max-width: 480px) {
-
+  .wrapper{
+    overflow: hidden;
+  }
 nav.menu1{
   display: none;
   }
