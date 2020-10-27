@@ -408,7 +408,7 @@ nav .inner ul li a:hover {
   position: relative;/*←相対位置*/
   padding-bottom: 120px;/*←footerの高さ*/
   box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
-  
+  overflow-x: hidden; /* overflow */
 }
 
 footer{
