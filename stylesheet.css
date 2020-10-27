@@ -138,6 +138,15 @@ body {
   background-image: url("https://github.com/create-tea/Portfolio/blob/main/40230.png?raw=true");
   background-size: cover; 
 }
+.wrapper{
+  height: 100%;
+  min-height: 100vh;
+  position: relative;/*←相対位置*/
+  padding-bottom: 120px;/*←footerの高さ*/
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  overflow-x: hidden; /* overflow */
+  overflow: hidden;
+}
 .contents-box {
   display: flex;
   flex-wrap: wrap;            /* 折り返し指定 */
@@ -399,15 +408,7 @@ nav .inner ul li a:hover {
   cursor: pointer;
 }
 
-.wrapper{
-  height: 100%;
-  min-height: 100vh;
-  position: relative;/*←相対位置*/
-  padding-bottom: 120px;/*←footerの高さ*/
-  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
-  overflow-x: hidden; /* overflow */
-  overflow: hidden;
-}
+
 
 footer{
   width: 100%;
