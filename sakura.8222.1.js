@@ -2,7 +2,7 @@
 	var q = d.createElement('div');
 	q.id = "sakura";
 	q.innerHTML = '<style>'+
-	'html,body{position: relative; overflow-x:hidden;}'+
+	'html,body{position: relative; overflow:hidden;}'+
 	'.hana{'+
 	'position:absolute;height:0;width:0;'+
 	'border: 10px solid rgb(135, 206, 235);;'+
