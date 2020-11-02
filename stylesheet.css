@@ -130,7 +130,7 @@ container
   text-align: center; */
 }
 .body-wrapper {
-  /* position: relative; */
+  position: relative;
   overflow-x: hidden;
 }
 /*============
@@ -141,6 +141,7 @@ body {
   font-weight: 400;
   background-image: url("https://github.com/create-tea/Portfolio/blob/main/40230.png?raw=true");
   background-size: cover;
+  overflow-x: hidden;
 }
 .wrapper{
   height: 100%;
