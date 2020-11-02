@@ -20,7 +20,7 @@ ipad画面サイズ
   }
   .body-wrapper {
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
 nav.menu1{
