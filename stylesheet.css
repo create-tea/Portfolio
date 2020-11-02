@@ -129,6 +129,10 @@ container
   /* font-size: 36px;
   text-align: center; */
 }
+.body-wrapper {
+  position: relative;
+  overflow: hidden;
+}
 /*============
 body
 =============*/
