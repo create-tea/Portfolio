@@ -141,8 +141,6 @@ body {
   font-weight: 400;
   background-image: url("https://github.com/create-tea/Portfolio/blob/main/40230.png?raw=true");
   background-size: cover;
-  position: relative; 
-  overflow:hidden;
 }
 .wrapper{
   height: 100%;
