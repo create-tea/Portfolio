@@ -1,5 +1,5 @@
 (function(d,b,w){
-	var q = d.createElement('div');
+	var q = d.createElement('.body-wrapper');
 	q.id = "sakura";
 	q.innerHTML = '<style>'+
 	'.hana{'+
@@ -112,7 +112,7 @@
 	var k = 0;
 	d.addEventListener('scroll',function(){u = d.documentElement.scrollTop || b.scrollTop;},false);
 	for(var i=0;i<50;i++){
-		var m = d.createElement('div');
+		var m = d.createElement('.body-wrapper');
 		m.id = 'hanabira'+i;
 		t[i] = Math.random()*-1000+u;
 		l[i] = Math.random()*w.innerWidth;
@@ -174,4 +174,4 @@
 		k++;
 		/* console.log(k); */
 	},45);
-})(window.document,window.document.body-wrapper,window);
+})(window.document,window.document.body,window);
