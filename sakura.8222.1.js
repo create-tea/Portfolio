@@ -1,5 +1,5 @@
 (function(d,b,w){
-	var q = d.querySelector('.body-wrapper');
+	var q = d.createElement('div');
 	q.id = "sakura";
 	q.innerHTML = '<style>'+
 	'.hana{'+
@@ -174,4 +174,4 @@
 		k++;
 		/* console.log(k); */
 	},45);
-})(window.document,window.document.body,window);
+})(window.document,window.document.querySelector('.body-wrapper'),window);
