@@ -131,7 +131,7 @@ container
 }
 .body-wrapper {
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 /*============
 body

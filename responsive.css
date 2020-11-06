@@ -17,6 +17,7 @@ ipad画面サイズ
 @media screen and (max-width: 480px) {
   .wrapper{
     overflow: hidden;
+    
   }
 
 
